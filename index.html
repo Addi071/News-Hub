@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsHub: get start</title>
+    <link rel="icon" href="logo.png" type="image/png" sizes="32x32">
+    <style>
+        
+         @media  screen and (max-width : 1150px) {
+        .item{
+            margin: 1vh 1vw 0 1vw;
+        }
+        .head{
+            font-size:2rem;
+        color: rgba(26, 25, 25, 0.663);
+        margin: 0 0 4vh 0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .main{
+            width: 80vw;
+            height: 80vh;
+            background-color: white;
+        }
+         .img{
+            width:40vw;
+            height:50vh;
+         }
+         .btn{
+            width: 15vw;
+            font-size:medium;
+            height: 5vh;
+         }
+         .para{
+        color: rgba(26, 25, 25, 0.663);
+        font-size: 1rem;
+        margin: 0 0 6vh 2vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(45deg,#f29b9bed,#7b3b60ed,#76385ced);
+            overflow:hidden;
+        }
+       }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(45deg,#f29b9bed,#7b3b60ed,#76385ced);
+            overflow:hidden;
+        }
+        .main{
+            width: 70vw;
+            height: 85vh;
+            background-color: white;
+        }
+        .img{
+            margin-right: 3vw;
+        }
+       .image{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       }
+       .nav{
+        height: 5vh;
+        background-color: white;
+       }
+       .content{
+        height: 72vh;
+        width: 35vw;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+       .head{
+        font-size:4rem;
+        color: rgba(26, 25, 25, 0.663);
+        margin: 0 0 6vh 0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       .para{
+        color: rgba(26, 25, 25, 0.663);
+        font-size: 1.5rem;
+        margin: 0 0 6vh 0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       .butn{
+        height: 8vh;
+        width: 12vw;
+        font-size: large;
+       }
+       .btn{
+        height: 8vh;
+        width: 12vw;
+        font-size:larger;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgb(255, 255, 255) ;
+        border-radius: 5px;
+        border: transparent;
+        background: linear-gradient(135deg,#f29b9bed,#7b3b60ed);
+       }
+       .navbar{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content:right;
+       }
+       a{
+        text-decoration: none;
+        font-size: larger;
+        color: rgba(26, 25, 25, 0.663);
+        font-weight: 500;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       .itm{
+           margin: 1vh 2vw 0 2vw;
+       }
+       .spcitm{
+        margin: 1vh 6vw 0 2vw;
+       }
+       
+      
+       @media screen and (max-width: 428px){
+        .item{
+            margin: 1vh 1vw 0 1vw;
+        }
+        .head{
+            font-size:2.5rem;
+        color: rgba(26, 25, 25, 0.663);
+        margin: 0 0 2vh 0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .main{
+            width: 80vw;
+            height: 80vh;
+            background-color: white;
+        }
+         .img{
+            width:50vw;
+            height:45vh;
+         }
+         .btn{
+            width: 20vw;
+            font-size:small;
+            height: 5vh;
+         }
+         .butn{
+        height: 5vh;
+        width: 20vw;
+        font-size: small;
+       }
+         .para{
+        color: rgba(26, 25, 25, 0.663);
+        font-size: 1rem;
+        /* margin: 0 0 6vh 2vw; */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(45deg,#f29b9bed,#7b3b60ed,#76385ced);
+            overflow:hidden;
+        }
+        .itm{
+           font-size:15px;
+        }
+        .content{
+        height: 25vh;
+        width: 50vw;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+       .para{
+        margin:2vh 0 2vh 0;
+       }
+       .image{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+       }
+       }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <ul class="navbar">
+                <!-- <li class="itm"><a href="login.php">sign in</a></li> -->
+                <li class="itm"><a href="about.html">About</a></li>
+                <li class="itm spcitm"><a href="about.html#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="image">
+            <div class="content">
+                <div class="head">
+                News Hub
+                </div>
+                <div class="para">
+                    Provide a daily news of <br> all catagories at one page
+                </div>
+                <div class="butn">
+                    <!-- <button class="btn">Get started</button> -->
+                  <button class="btn"><a href="main_page.html" >Get started</a></button>
+                 
+                </div>
+            </div>
+            <img src="news-website-landing-page-design-template-vector-26923636-removebg-preview.png" alt="Error..." class="img">
+        </div>
+    </div>
+
+</body>
+</html>
