@@ -113,8 +113,10 @@
 
           //  we are using the NEWS API for fetching the news of all different catagories
 
-       let api = `https://newsapi.org/v2/everything?q=${q}&apiKey=1d83d2b67c0d43f5aaa7f90712e87a0d`
-    
+      //  let api = `https://newsapi.org/v2/everything?q=${q}&apiKey=1d83d2b67c0d43f5aaa7f90712e87a0d`
+
+      let api = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=${q}&apiKey=1d83d2b67c0d43f5aaa7f90712e87a0d`;
+           
        fetch(api)
        .then(response => response.json())
     .then(data => {
