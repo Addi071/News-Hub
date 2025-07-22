@@ -46,6 +46,6 @@ Feel free to contribute to **News-Hub** by submitting issues, feature requests, 
 
 For any inquiries or support, please reach out to:  
 **Adnan Khan**  
-khanadnanpathan186@gmail.com
+khanadnanpathan186@gmail.com 
 
 ---
