@@ -1,6 +1,6 @@
 
 ---
-
+ 
 # News-Hub
 
 **News-Hub** is a dynamic news aggregator website built with HTML, CSS, and JavaScript. It consolidates the latest headlines and updates from a variety of trusted sources into a single, user-friendly platform. This README provides an overview of the project’s features, installation instructions, and usage guidelines.
